@@ -2,4 +2,4 @@
 
 <%=link_to 'Artist', artist_path(@song.artist)%><br><br>
 
-<%=link_to 'Genre', genre_path(@song.genre)%>
+<%=link_to @song.genre.name , genre_path(@song.genre)%>
